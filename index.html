@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./public/css/styles.css">
+
+    <title>Kalkulator Sederhana</title>
+</head>
+<body>
+    
+    <div class="card mx-auto">
+        <div class="card-header">
+            <div class="title">My Calculator</div>
+            <input type="text" maxlength="10" disabled="disabled" id="result">
+            <input type="text" maxlength="10" disabled="disabled" id="preview">
+        </div>
+        <hr class="divider" />
+        <div class="card-body">
+            <div class="grid">
+                <div class="column">
+                    <button type="button" id="clear" class="btn-calc color-secondary">C</button>
+                </div>
+                <div class="column">
+                    <button type="button" class="btn-calc color-secondary" value="%">%</button>
+                </div>
+                <div class="column">
+                    <button type="button" id="deleteNumber" class="btn-calc color-secondary">del</button>
+                </div>
+                <div class="column">
+                    <button type="button" class="btn-calc color-secondary" value="/">&divide;</button>
+                </div>
+                <div class="column">
+                    <button type="button" class="btn-calc" value="7">7</button>
+                </div>
+                <div class="column">
+                    <button type="button" class="btn-calc" value="8">8</button>
+                </div>
+                <div class="column">
+                    <button type="button" class="btn-calc" value="9">9</button>
+                </div>
+                <div class="column">
+                    <button type="button" class="btn-calc color-secondary" value="*">X</button>
+                </div>
+                <div class="column">
+                    <button type="button" class="btn-calc" value="4">4</button>
+                </div>
+                <div class="column">
+                    <button type="button" class="btn-calc" value="5">5</button>
+                </div>
+                <div class="column">
+                    <button type="button" class="btn-calc" value="6">6</button>
+                </div>
+                <div class="column">
+                    <button type="button" class="btn-calc color-secondary" value="-">-</button>
+                </div>
+                <div class="column">
+                    <button type="button" class="btn-calc" value="1">1</button>
+                </div>
+                <div class="column">
+                    <button type="button" class="btn-calc" value="2">2</button>
+                </div>
+                <div class="column">
+                    <button type="button" class="btn-calc" value="3">3</button>
+                </div>
+                <div class="column">
+                    <button type="button" class="btn-calc color-secondary" value="+">+</button>
+                </div>
+                <div class="column">
+                    <button type="button" class="btn-calc" value="00">00</button>
+                </div>
+                <div class="column">
+                    <button type="button" class="btn-calc" value="0">0</button>
+                </div>
+                <div class="column">
+                    <button type="button" class="btn-calc" value=".">.</button>
+                </div>
+                <div class="column">
+                    <button type="button" id="calculate" class="btn-calc color-secondary">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./assets/js/Maths.js" type="module"></script>
+    <script src="./assets/js/custom.js" type="module"></script>
+</body>
+</html>
